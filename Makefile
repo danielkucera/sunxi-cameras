@@ -2,7 +2,7 @@ PWD         := $(shell pwd)
 KVERSION    := $(shell uname -r)
 KERNEL_DIR   = /lib/modules/$(KVERSION)/build
 
-MODULE_NAME  = gc2035
+MODULE_NAME  = ov5640
 obj-m       := device/$(MODULE_NAME).o
 
 all:
